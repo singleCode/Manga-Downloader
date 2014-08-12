@@ -1,7 +1,7 @@
 
 <?php
 $zip = new ZipArchive();
-#Only NARUTO get the latest chapters
+#Only get NARUTO latest chapters
 $data=file_get_contents('https://www.mangaeden.com/api/manga/4e70ea03c092255ef70046f0/');
 $data1=json_decode($data,true);
 $a=[];
